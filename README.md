@@ -31,7 +31,22 @@ Unlike encryption, encoding does not involve keeping information confidential or
 ASCII encoding is a method used to convert numbers to letters. It stands for American Standard Code for Information Interchange. In ASCII encoding, each letter of the English alphabet, along with punctuation marks, symbols, and numbers, is represented by a specific number between 0 and 255. For example, the number 84 represents the letter 'T', and the number 118 represents the letter 'v'. This conversion is often called decimal to ASCII encoding or decimal to text encoding.
 
 You can find more conversions, such as hex and octal, on the [ASCII Table website](https://www.asciitable.com/).
+
 - [x] Hex 
+
+Hex encoding is a way to represent binary data using a shorter format. Binary numbers can be quite long and cumbersome to work with. Hexadecimal, or hex for short, is a numbering system that uses 16 symbols: the numbers 0 to 9 and the letters A to F.
+
+For example:
+
+- The hex value 52 represents the letter 'R'.
+
+- The hex value 7A represents the letter 'z'.
+
+- When we convert the word "hello" to hex, it becomes 68 65 6C 6C 6F.
+
+- This conversion is called hex to ASCII encoding or hex to text encoding.
+
+Additionally, there's another numbering system called octal, which is similar to hex but uses the digits 0 to 7. For instance: The octal value 042 represents the decimal number 34.
 - [x] Base64 
 - [x] Bytes and Big Integers 
 - [x] Encoding Automation (Using the [pwntools library](https://docs.pwntools.com/en/stable/) (pwn)) --please note that the [Pwntools library](https://docs.pwntools.com/en/stable/install.html#installation) is best supported on 64-bit Ubuntu LTS releases (14.04, 16.04, 18.04, and 20.04). Most functionality should work on any Posix-like distribution (Debian, Arch, FreeBSD, OSX, etc.). **It's not compatible with Windows!**
