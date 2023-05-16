@@ -1,8 +1,36 @@
 # modern_cryptography
 Encoding and decoding data types that are commonly used in cryptography.
 
-**Encoding**
+
+## The History of Cryptography
+
+Cryptography has been around for a long time, even in ancient civilizations. People needed secure ways to communicate during battles and politics, so they developed methods to hide their messages from enemies.
+
+One of the earliest methods was the Caesar cipher. Julius Caesar, a Roman general, wanted to send secret messages to his military. He came up with a way to make his messages unreadable to others, which became known as the Caesar cipher.
+
+In this method, a message is encrypted by shifting each letter a fixed number of positions down the alphabet. For example, with a shift of 1, the letter A becomes B, and with a shift of 2, A becomes C. This creates a ciphertext, which is an unreadable version of the original message.
+
+To decrypt the message and make it readable again, the process is reversed. Each letter is shifted back by the same number of positions.
+
+While the Caesar cipher provided confidentiality to Julius Caesar, it is no longer used for serious purposes today because it can be easily decrypted. Instead, more advanced encryption methods have been developed over time.
+
+
+
+## Encoding
+
+Encoding is different from encryption because its purpose is not to keep information secret, but rather to transform data so that it can be properly used by a different system.
+
+The main goal of encoding is to convert data into a specific format that can be easily understood and processed by a particular system or device. For instance, text can be encoded into binary format to enable digital transmission of data.
+
+Unlike encryption, encoding does not involve keeping information confidential or hidden. The encoding process uses a publicly available scheme that can be decoded by anyone who knows the scheme. It does not rely on a secret key or any form of encryption algorithm.
+
+
 - [x] ASCII 
+
+
+ASCII encoding is a method used to convert numbers to letters. It stands for American Standard Code for Information Interchange. In ASCII encoding, each letter of the English alphabet, along with punctuation marks, symbols, and numbers, is represented by a specific number between 0 and 255. For example, the number 84 represents the letter 'T', and the number 118 represents the letter 'v'. This conversion is often called decimal to ASCII encoding or decimal to text encoding.
+
+You can find more conversions, such as hex and octal, on the [ASCII Table website](https://www.asciitable.com/).
 - [x] Hex 
 - [x] Base64 
 - [x] Bytes and Big Integers 
